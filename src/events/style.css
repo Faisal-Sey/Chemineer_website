@@ -1,0 +1,9 @@
+.events.button-area-sm {
+  margin-top: 40px;
+}
+
+.bg-image {
+  background-image: url("/images/banner-sm-e.jpg");
+  opacity: 1!important;
+  z-index: -1!important;
+}
