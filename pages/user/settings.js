@@ -1,4 +1,4 @@
-import UserSettings from "../../src/user-panel/user-panel";
+import UserSettings from "../../src/user-panel/user-settings";
 
 function Settings() {
   return <UserSettings/>
