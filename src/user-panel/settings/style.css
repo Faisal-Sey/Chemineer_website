@@ -669,6 +669,14 @@
   margin-bottom: 30px;
 }
 
+.profile-info-sect .page-title {
+  margin-top: 30px;
+}
+
+.profile-info-sect {
+  padding: 0 40px 40px 40px;
+}
+
 @media (max-width: 768px) {
   .profile-info-sect {
     margin-top: 100px;

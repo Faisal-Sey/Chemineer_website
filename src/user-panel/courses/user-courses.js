@@ -11,11 +11,12 @@ function Courses() {
 
 	const router = useRouter();
 
-	const moveToLinks = (year) => {
+	const moveToLinks = (year, sem) => {
 		router.push({
 			pathname: "/user/courses/[yr]",
 			query: {
-				yr: year
+				yr: year,
+				sem: sem
 			}
 		})
 	}
@@ -45,8 +46,9 @@ function Courses() {
                                     </h4>
                                 </div>
                                 <div className="bottom-content">
-                                    <button onClick={() => moveToLinks(card.slug)} className="btn-primary">Go to<em className="ti-arrow-right"></em></button>
-                                </div>
+                                    <button onClick={() => moveToLinks(card.slug, "sem1")} className="btn">Sem 1</button>
+																		<button onClick={() => moveToLinks(card.slug, "sem2")} className="btn">Sem 2</button>
+																</div>
                             </div>
                         </div>
                         )}

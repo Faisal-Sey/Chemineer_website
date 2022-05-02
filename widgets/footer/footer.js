@@ -3,7 +3,7 @@
 
 export default function Footer(){
   return (
-    <footer className="section footer bg-dark-alt tc-light footer-s1">
+    <footer className="section footer">
 			<div className="container">
 				<div className="row gutter-vr-40px">
 					<div className="col-lg-3 col-sm-6">

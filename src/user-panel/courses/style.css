@@ -1,0 +1,26 @@
+.bottom-content {
+  padding-bottom: 30px!important;
+}
+
+.bottom-content button:first-child{
+  float: left;
+}
+
+.bottom-content button:last-child{
+  float: right;
+}
+
+.btn-space {
+  font-size: 14px;
+  color: #ff4157;
+  font-weight: 600;
+  background: transparent;
+  border-color: #e5e5e5;
+  text-transform: capitalize;
+  border: none;
+  position: relative;
+  min-width: auto;
+  padding: 0;
+  margin-left: 8px;
+  margin-right: 8px;
+}
