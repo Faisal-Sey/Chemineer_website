@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
-
+import Link from 'next/link'
 
 function UserAccordion({active}) {
   
   const [tabs, setTabs] = useState({
     profileInfo: false,
-    currentCourses: false,
     Level100: false,
     Level200: false,
     Level300: false,
@@ -51,7 +50,7 @@ function UserAccordion({active}) {
               <div className="card-body">
                 <ul className="links">
                     <li>
-                        <a  className={tabs.profileInfo ? "active": ""} href="user-setting.html">Profile Info</a>
+                        <a className={tabs.profileInfo ? "active": ""} href="user-setting.html">Profile Info</a>
                     </li>
                 </ul>
               </div>
@@ -76,19 +75,16 @@ function UserAccordion({active}) {
               <div className="card-body">
                   <ul className="links">
                       <li>
-                          <a href="user-account-info.html">Current Courses</a>
+                          <a className={tabs.Level100 ? "active" : ""} href="user-account-info.html">Level 100</a>
                       </li>
                       <li>
-                          <a href="user-account-info.html">Level 100</a>
+                          <a className={tabs.Level200 ? "active" : ""} href="user-account-info.html">Level 200</a>
                       </li>
                       <li>
-                          <a href="user-account-info.html">Level 200</a>
+                          <a className={tabs.Level300 ? "active" : ""} href="user-account-info.html">Level 300</a>
                       </li>
                       <li>
-                          <a href="user-account-info.html">Level 300</a>
-                      </li>
-                      <li>
-                          <a href="user-account-info.html">Level 400</a>
+                          <a className={tabs.Level400 ? "active" : ""} href="user-account-info.html">Level 400</a>
                       </li>
                   </ul>
               </div>

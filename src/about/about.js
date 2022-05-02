@@ -6,7 +6,7 @@ import Footer from "../../widgets/footer/footer";
 function AboutPage() {
   return ( 
     <>
-      <header classNameNameName="is-transparent is-sticky is-shrink" id="header">
+      <header classNameName="is-transparent is-sticky is-shrink" id="header">
         <Header/>
         <BannerInner root="Home" path="Contact" pathName="Contact Us"/>
       </header>

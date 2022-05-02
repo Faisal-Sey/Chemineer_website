@@ -1,7 +1,7 @@
-import Header from '../../widgets/header/header';
-import BannerInner from '../../components/bannerInner/banner'
-import Footer from '../../widgets/footer/footer'
-import UserAccordion from '../../components/userAccordion/accordion';
+import Header from '../../../widgets/header/header';
+import BannerInner from '../../../components/bannerInner/banner'
+import Footer from '../../../widgets/footer/footer'
+import UserAccordion from '../../../components/userAccordion/accordion';
 
 function UserSettings() {
   return ( 

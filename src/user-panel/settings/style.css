@@ -702,3 +702,41 @@
   height: auto;
   border: 2px solid rgba(0, 0, 0, 0.1);
 }
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.col-md-6 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+
+
+element.style {
+  width: 75%;
+}
+.user-setting-section .badge-box .bottom-content .p-wrapper .progress .progress-bar {
+  background-image: -o-linear-gradient(284deg, #f22876 0%, #942dd9 100%);
+  background-image: linear-gradient(166deg, #f22876 0%, #942dd9 100%);
+}
+
+.card-includes {
+  margin-bottom: 40px;
+}
+
+.card-includes-spans {
+  text-align: left;
+}

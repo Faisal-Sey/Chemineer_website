@@ -6,7 +6,7 @@ import BannerInner from "../../components/bannerInner/banner";
 function ContactPage() {
   return ( 
     <>
-      <header classNameName="is-transparent is-sticky is-shrink" id="header">
+      <header className="is-transparent is-sticky is-shrink" id="header">
         <Header/>
         <BannerInner root="Home" path="Contact" pathName="Contact Us"/>
       </header>
