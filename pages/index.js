@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Script from 'next/script'
-import HomePage from '../src/Home/home'
-import React, { useState, useEffect } from 'react'
+import HomePage from '../src/home/home'
+import React from 'react'
 
 
 export default function Home() {
