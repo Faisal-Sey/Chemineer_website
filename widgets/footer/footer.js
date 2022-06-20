@@ -11,10 +11,10 @@ export default function Footer(){
 							<div className="wgs-content">
 								<div className="wgs-logo">
 									<a href="#">
-										<img src="images/logo.png" srcSet="images/logo2x.png" alt="logo"/>
+										<img src="images/no-logo.png" srcSet="images/no-logo.png" alt="logo"/>
 									</a>
 								</div>
-								<p>&copy; 2019. All rights reserved.<br/> Designed & Developed by <a href="#">Softnio</a></p>	
+								<p>&copy; 2022. All rights reserved.<br/> Designed & Developed by <a href="https://portfolio-faisal-sey.vercel.app/">Faisal Issaka</a></p>	
 							</div>
 						</div>
             {/* .wgs */}
@@ -23,10 +23,10 @@ export default function Footer(){
 					<div className="col-lg-3 col-sm-6">
 						<div className="wgs">
 							<div className="wgs-content">
-								<h3 className="wgs-title t-u">Company</h3>
+								<h3 className="wgs-title t-u">Department</h3>
 								<ul className="wgs-menu">
 									<li><a href="florida-about.html">About Us</a></li>
-									<li><a href="florida-work.html">Work</a></li>
+									<li><a href="florida-work.html">Events</a></li>
 									<li><a href="florida-team.html">Team</a></li>
 									<li><a href="florida-contact.html">Contact</a></li>
 								</ul>
@@ -35,7 +35,7 @@ export default function Footer(){
             {/* .wgs */}
 					</div>
           {/* .col */}
-					<div className="col-lg-3 col-sm-6">
+					{/* <div className="col-lg-3 col-sm-6">
 						<div className="wgs">
 							<div className="wgs-content">
 								<h3 className="wgs-title t-u">Services</h3>
@@ -46,14 +46,14 @@ export default function Footer(){
 									<li><a href="florida-service-single.html">Branding Stretegy</a></li>
 								</ul>
 							</div>
-						</div>
+						</div> */}
             {/* .wgs */}
-					</div>
+					{/* </div> */}
           {/* .col */}
 					<div className="col-lg-3 col-sm-6">
 						<div className="wgs">
 							<div className="wgs-content">
-								<h3 className="wgs-title t-u">Get our staff</h3>
+								<h3 className="wgs-title t-u">Contact Us</h3>
 								<form className="genox-form" action="form/subscribe.php" method="POST">
 									<div className="form-results"></div>
 									<div className="field-group btn-inline">

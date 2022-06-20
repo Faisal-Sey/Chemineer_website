@@ -1,4 +1,5 @@
-
+/* eslint-disable @next/next/no-sync-scripts */
+import { Carousel } from 'antd';
 import Header from '../../widgets/header/header'
 import Footer from '../../widgets/footer/footer'
 import { BANNER_CONTENT } from '../../components/home/banners'
@@ -10,41 +11,112 @@ import News from '../../components/home/news'
 
 
 export default function HomePage() {
+
+	const contentStyle = {
+		height: '160px',
+		color: '#fff',
+		lineHeight: '160px',
+		textAlign: 'center',
+		background: '#364d79',
+	};
+
   return (
     <>
       <header className="is-transparent is-sticky is-shrink" id="header">
       <Header/>
       {/* banner / slider */}
-      <div className="banner banner-s4 has-slider">
-        <div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
-					{BANNER_CONTENT.map((banner) => 
-						<div key={banner.id} className="banner-block tc-light d-flex">
-							<div className="container">
-								<div className="row">
-									<div className="col-md-10 col-xl-8">
-										<div className="banner-content">
-											<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">{banner.headerText}</h1>
-											<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">{banner.text}</p>
-											<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
-													<a href={`${banner.link}`} className="menu-link btn">{banner.linkText}</a>
-											</div>
+			<Carousel autoplay>
+				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
+					<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
+										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
+										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
 										</div>
 									</div>
 								</div>
 							</div>
-							{/* bg */}
-							<div className="bg-image change-bg">
-								<img src={`${banner.img}`} alt="banner"/>
-							</div>
-							{/* bg */}
 						</div>
-					)}			
-        </div>
-        <div className="tes-arrow">
-          <a className="slick-prev slick-arrow"><i className="icon ti ti-angle-left"></i></a>
-          <a className="slick-next slick-arrow"><i className="icon ti ti-angle-right"></i></a>
-        </div>
-      </div>
+						{/* bg */}
+						<div className="bg-image change-bg">
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div>
+						{/* bg */}
+					</div>
+					
+				</div>
+				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
+					<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
+										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
+										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/* bg */}
+						<div className="bg-image change-bg">
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div>
+						{/* bg */}
+					</div>
+					
+				</div>
+				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
+					<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
+										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
+										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/* bg */}
+						<div className="bg-image change-bg">
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div>
+						{/* bg */}
+					</div>
+					
+				</div>
+				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
+					<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
+										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
+										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/* bg */}
+						<div className="bg-image change-bg">
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div>
+						{/* bg */}
+					</div>
+					
+				</div>
+			</Carousel>
+
+
       {/* slider / banner */}
       </header>
 			
@@ -58,10 +130,10 @@ export default function HomePage() {
 			<SmallBanners/>
 			
 			{/* quotes */}
-			<Quotes/>
+			{/* <Quotes/> */}
 		
 			{/* teams */}
-			<Teams/>
+			{/* <Teams/> */}
 
 			<News/>
 

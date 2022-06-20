@@ -7,8 +7,8 @@ function News() {
         <div className="row justify-content-center">
           <div className="col-md-8 col-md-6 text-center">
             <div className="section-head section-sm">
-              <h5 className="heading-xs">News</h5>
-              <h2>From the Genox News Room</h2>
+              <h5 className="heading-xs">Team</h5>
+              <h2>Student Leaders</h2>
             </div>
           </div>
         </div>
@@ -19,8 +19,8 @@ function News() {
                 <a href="florida-news-details.html"><img src="images/post-thumb-b.jpg" alt="post"/></a>
               </div>
               <div className="post-content">
-                <p className="post-tag">DECEMBER 12, 2018</p>
-                <h4><a href="florida-news-details.html">One of the Best UX Agencies in the World</a></h4>
+                <p className="post-tag">Position</p>
+                <h4><a href="florida-news-details.html">Full Name</a></h4>
                 <a href="florida-news-details.html" className="btn btn-arrow">Read More</a>
               </div>
             </div>
@@ -31,8 +31,8 @@ function News() {
                 <a href="florida-news-details.html"><img src="images/post-thumb-c.jpg" alt="post"/></a>
               </div>
               <div className="post-content">
-                <p className="post-tag">DECEMBER 10, 2018</p>
-                <h4><a href="florida-news-details.html">Design is not just what it looks like and feels like.</a></h4>
+                <p className="post-tag">Position</p>
+                <h4><a href="florida-news-details.html">Full Name</a></h4>
                 <a href="florida-news-details.html" className="btn btn-arrow">Read More</a>
               </div>
             </div>
@@ -43,8 +43,8 @@ function News() {
                 <a href="florida-news-details.html"><img src="images/post-thumb-d.jpg" alt="post"/></a>
               </div>
               <div className="post-content">
-                <p className="post-tag">DECEMBER 08, 2018</p>
-                <h4><a href="florida-news-details.html">Follow your own design process, whatever gets you.</a></h4>
+                <p className="post-tag">Position</p>
+                <h4><a href="florida-news-details.html">Full Name</a></h4>
                 <a href="florida-news-details.html" className="btn btn-arrow">Read More</a>
               </div>
             </div>

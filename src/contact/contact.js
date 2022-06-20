@@ -29,15 +29,15 @@ function ContactPage() {
                     <div className="text-box is-shadow contact-box">
                       <div className="contact-content contact-content-s3">
                         <h4>Phone:</h4>
-                        <p>1800 456 7890</p>
+                        <p>000 000 0000</p>
                       </div>
                       <div className="contact-content contact-content-s3">
                         <h4>Email:</h4>
-                        <p>info@genox.com</p>
+                        <p>example@gmail.com</p>
                       </div>
                       <div className="contact-content contact-content-s3">
                         <h4>Address:</h4>
-                        <address>52A, Tailstoi Town 5238 La city, IA 85796</address>
+                        <address>Address</address>
                       </div>
                     </div>
                   </div>

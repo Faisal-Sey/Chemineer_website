@@ -1,4 +1,3 @@
-import RunScripts from "../components/global/runScripts";
 import Login from "../src/login/login";
 
 

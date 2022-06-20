@@ -1,6 +1,4 @@
-/* eslint-disable @next/next/no-sync-scripts */
-import React, { useEffect, useState } from 'react';
-import Script from 'next/script'
+import React from 'react';
 
 // css
 import '../styles/globals.css'
@@ -11,45 +9,10 @@ import "../src/events/style.css"
 import "../src/user-panel/settings/style.css"
 import "../src/user-panel/courses/style.css"
 
-import "jquery"
 
-// components
-import PreLoader from '../widgets/preloader/preloader';
 
 function MyApp({ Component, pageProps }) {
-
-  const [state, setState] = useState(true);
-
-  useEffect(() => {
-    let load = false;
-
-    if (!load){
-      setState(false);
-      // window.location.reload(false)
-    }
-
-  }, [setState]);
-
-
-  return (
-    <>
-      <Script 
-        type='text/javascript' 
-        id='1'
-        dangerouslySetInnerHTML={{ __html: process.env.jqueryBundle}}  
-      /> 
-      <Script 
-        type='text/javascript' 
-        id='2'
-        dangerouslySetInnerHTML={{ __html: process.env.Scripts}}
-      /> 
-      {!state ? 
-        <Component {...pageProps} />
-      :
-        <PreLoader/>
-        }
-    </>
-  )
+  return <Component {...pageProps} />
     
 }
 

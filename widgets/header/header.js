@@ -12,15 +12,15 @@ export default function Header(){
 								<a href="./" className="logo-link">
 									<img 
 										className="logo-dark" 
-										src="/images/logo.png" 
-										srcSet="/images/logo2x.png 2x" 
+										src="/images/no-logo.png" 
+										srcSet="/images/no-logo.png 2x" 
 										alt="logo"
 										layout="fill"
 									/>
 									<img 
 										className="logo-light" 
-										src="/images/logo-white.png" 
-										srcSet="/images/logo-white2x.png 2x" 
+										src="/images/no-logo.png" 
+										srcSet="/images/no-logo.png 2x" 
 										alt="logo"
 									/>
 								</a>
@@ -73,16 +73,16 @@ export default function Header(){
 										</li>
 										
 									</ul>
-									<ul className="menu-btns">
+									{/* <ul className="menu-btns">
 										<li><a href="" className="btn search search-trigger"><i className="icon ti-search "></i></a></li>
 										<li><a href="florida-contact.html" className="btn btn-sm">Start A project</a></li>
-									</ul>
+									</ul> */}
 								</nav>
 							</div>
 							{/* header-navbar  */}
 
 							{/* header-search */}
-							<div className="header-search">
+							{/* <div className="header-search">
 								<form role="search" method="POST" className="search-form" action="#">
 									<div className="search-group">
 										<input 
@@ -94,7 +94,7 @@ export default function Header(){
 										<button className="search-submit" type="submit"><i className="icon ti-search"></i></button>
 									</div>
 								</form>
-							</div>
+							</div> */}
 							{/* header-search                                    */}
 						</div>
 					</div>
