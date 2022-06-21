@@ -15,22 +15,8 @@ export default function HomePage() {
 	const innerContainerStyle = {
 		position: "relative",
 		top: "40%",
-		left: "25%",
-		right: "25%",
-		bottom: 0
+		width: "100%"
 	}
-
-	const headStyles = {
-		color: "#fff",
-		fontSize: 80,
-		textTransform: "uppercase"
-	}
-
-	const subHeadStyles = {
-		color: "#fff",
-		fontSize: 40,
-	}
-
 	const contentStyle = {
 		container: {
 			height: "100vh",
@@ -141,24 +127,24 @@ export default function HomePage() {
 				<div>
 					<div style={contentStyle1.container}>
 						<div style={innerContainerStyle}>
-							<h1 style={headStyles}>Banner Header</h1>
-							<p style={subHeadStyles}>Banner Description</p>
+							<h1 className='banner_head'>Banner Header</h1>
+							<p className='banner_subhead'>Banner Description</p>
 						</div>
 					</div>
 				</div>
 				<div>
 					<div style={contentStyle2.container}>
 						<div style={innerContainerStyle}>
-							<h1 style={headStyles}>Banner Header</h1>
-							<p style={subHeadStyles}>Banner Description</p>
+							<h1 className='banner_head'>Banner Header</h1>
+							<p className='banner_subhead'>Banner Description</p>
 						</div>
 					</div>
 				</div>
 				<div>
 					<div style={contentStyle.container}>
 						<div style={innerContainerStyle}>
-							<h1 style={headStyles}>Banner Header</h1>
-							<p style={subHeadStyles}>Banner Description</p>
+							<h1 className='banner_head'>Banner Header</h1>
+							<p className='banner_subhead'>Banner Description</p>
 						</div>
 					</div>
 				</div>

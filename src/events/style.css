@@ -7,3 +7,49 @@
   opacity: 1!important;
   z-index: -1!important;
 }
+
+.banner_head {
+  color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;
+  text-align: center;
+}
+
+.banner_subhead {
+  color: #fff;
+	font-size: 40px;
+  text-align: center;
+}
+
+@media (max-width: 998px) {
+  .banner_head {
+    font-size: 60px;
+  }
+
+  .banner_subhead {
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  .banner_head {
+    font-size: 40px;
+  }
+
+  .banner_subhead {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 457px) {
+  .banner_head {
+    font-size: 25px;
+  }
+
+  .banner_subhead {
+    color: #fff;
+    font-size: 15px;
+  }
+}
