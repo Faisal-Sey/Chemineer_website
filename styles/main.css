@@ -2282,7 +2282,7 @@ h6, .h6, .fz-6 { font-size: 0.875rem; }
   .logo img { height: 40px; }
   .logo-md img { height: 50px; }
   .logo-lg img { height: 60px; } }
-@media (min-width: 1200px) { .logo img { height: auto; } }
+@media (min-width: 1200px) { .logo img { height: auto; max-height: 80px; } }
 .header-menu { max-height: 100vh; overflow: hidden; overflow-y: auto; }
 .header-navbar-classic .header-menu { display: none; max-height: 65vh; }
 .header-navbar-classic .header-menu.menu-shown { display: block; }

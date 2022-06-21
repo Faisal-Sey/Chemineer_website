@@ -2,3 +2,19 @@
   padding-top: 70px!important;
   padding-bottom: 70px!important;
 }
+
+.banner-img {
+  height: "100vh";
+}
+
+.bn-1 {
+  background-image: url('/images/bg1.jpg'),
+};
+
+.bn-2 {
+  background-image: url('/images/bg2.jpg'),
+};
+
+.bn-3 {
+  background-image: url('/images/bg1.jpg'),
+};

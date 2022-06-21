@@ -11,7 +11,7 @@ export default function Footer(){
 							<div className="wgs-content">
 								<div className="wgs-logo">
 									<a href="#">
-										<img src="images/no-logo.png" srcSet="images/no-logo.png" alt="logo"/>
+										<img src="images/no-logo.png" srcSet="images/no-logo-1.png" alt="logo"/>
 									</a>
 								</div>
 								<p>&copy; 2022. All rights reserved.<br/> Designed & Developed by <a href="https://portfolio-faisal-sey.vercel.app/">Faisal Issaka</a></p>	

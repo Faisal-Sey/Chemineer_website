@@ -12,12 +12,44 @@ import News from '../../components/home/news'
 
 export default function HomePage() {
 
+	const innerContainerStyle = {
+		position: "relative",
+		top: "40%",
+		left: "25%",
+		right: "25%",
+		bottom: 0
+	}
+
+	const headStyles = {
+		color: "#fff",
+		fontSize: 80,
+		textTransform: "uppercase"
+	}
+
+	const subHeadStyles = {
+		color: "#fff",
+		fontSize: 40,
+	}
+
 	const contentStyle = {
-		height: '160px',
-		color: '#fff',
-		lineHeight: '160px',
-		textAlign: 'center',
-		background: '#364d79',
+		container: {
+			height: "100vh",
+			backgroundImage: "url('/images/bg1.jpg')"
+		},
+	};
+
+	const contentStyle1 = {
+		container: {
+			height: "100vh",
+			backgroundImage: "url('/images/bg2.jpg')",
+		},
+	};
+
+	const contentStyle2 = {
+		container: {
+			height: "100vh",
+			backgroundImage: "url('/images/bg1.jpg')",
+		},
 	};
 
   return (
@@ -25,94 +57,110 @@ export default function HomePage() {
       <header className="is-transparent is-sticky is-shrink" id="header">
       <Header/>
       {/* banner / slider */}
+			{/* <Carousel autoplay>
+				<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u">Banner Header</h1>
+										<p className="lead lead-lg animate">Banner Description</p>
+										<div className="banner-btn animate">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/* bg */}
+						{/* <div className="bg-image change-bg" style={contentStyle}>
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div> */}
+						{/* bg */}
+				{/* </div>
+				<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u">Banner Header</h1>
+										<p className="lead lead-lg animate">Banner Description</p>
+										<div className="banner-btn animate">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> */}
+						{/* bg */}
+						{/* <div className="bg-image change-bg" style={contentStyle1}>
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div> */}
+						{/* bg */}
+				{/* </div>
+				<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u">Banner Header</h1>
+										<p className="lead lead-lg animate">Banner Description</p>
+										<div className="banner-btn animate">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> */}
+						{/* bg */}
+						{/* <div className="bg-image change-bg" style={contentStyle2}>
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div> */}
+						{/* bg */}
+				{/* </div>
+				<div className="banner-block tc-light d-flex">
+						<div className="container">
+							<div className="row">
+								<div className="col-md-10 col-xl-8">
+									<div className="banner-content">
+										<h1 className="banner-heading animate t-u">Banner Header</h1>
+										<p className="lead lead-lg animate">Banner Description</p>
+										<div className="banner-btn animate">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> */}
+						{/* bg */}
+						{/* <div className="bg-image change-bg" contentStyle>
+							<img src="images/banner-a.jpg" alt="banner"/>
+						</div> */}
+						{/* bg */}
+				{/* </div> */}
+				
+			{/* </Carousel>  */}
+
 			<Carousel autoplay>
-				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
-					<div className="banner-block tc-light d-flex">
-						<div className="container">
-							<div className="row">
-								<div className="col-md-10 col-xl-8">
-									<div className="banner-content">
-										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
-										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
-										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
-										</div>
-									</div>
-								</div>
-							</div>
+				<div>
+					<div style={contentStyle1.container}>
+						<div style={innerContainerStyle}>
+							<h1 style={headStyles}>Banner Header</h1>
+							<p style={subHeadStyles}>Banner Description</p>
 						</div>
-						{/* bg */}
-						<div className="bg-image change-bg">
-							<img src="images/banner-a.jpg" alt="banner"/>
-						</div>
-						{/* bg */}
 					</div>
-					
 				</div>
-				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
-					<div className="banner-block tc-light d-flex">
-						<div className="container">
-							<div className="row">
-								<div className="col-md-10 col-xl-8">
-									<div className="banner-content">
-										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
-										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
-										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
-										</div>
-									</div>
-								</div>
-							</div>
+				<div>
+					<div style={contentStyle2.container}>
+						<div style={innerContainerStyle}>
+							<h1 style={headStyles}>Banner Header</h1>
+							<p style={subHeadStyles}>Banner Description</p>
 						</div>
-						{/* bg */}
-						<div className="bg-image change-bg">
-							<img src="images/banner-a.jpg" alt="banner"/>
-						</div>
-						{/* bg */}
 					</div>
-					
 				</div>
-				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
-					<div className="banner-block tc-light d-flex">
-						<div className="container">
-							<div className="row">
-								<div className="col-md-10 col-xl-8">
-									<div className="banner-content">
-										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
-										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
-										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
-										</div>
-									</div>
-								</div>
-							</div>
+				<div>
+					<div style={contentStyle.container}>
+						<div style={innerContainerStyle}>
+							<h1 style={headStyles}>Banner Header</h1>
+							<p style={subHeadStyles}>Banner Description</p>
 						</div>
-						{/* bg */}
-						<div className="bg-image change-bg">
-							<img src="images/banner-a.jpg" alt="banner"/>
-						</div>
-						{/* bg */}
 					</div>
-					
-				</div>
-				<div className="has-carousel" data-effect="true" data-items="1" data-loop="true" data-dots="false" data-auto="true" data-navs="true">
-					<div className="banner-block tc-light d-flex">
-						<div className="container">
-							<div className="row">
-								<div className="col-md-10 col-xl-8">
-									<div className="banner-content">
-										<h1 className="banner-heading animate t-u" data-animate="fade-in-up" data-delay="0.5" data-duration="0.5">Banner Header</h1>
-										<p className="lead lead-lg animate" data-animate="fade-in-up" data-delay="0.12" data-duration="0.5">Banner Description</p>
-										<div className="banner-btn animate" data-animate="fade-in-up" data-delay="0.20" data-duration="0.9">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* bg */}
-						<div className="bg-image change-bg">
-							<img src="images/banner-a.jpg" alt="banner"/>
-						</div>
-						{/* bg */}
-					</div>
-					
 				</div>
 			</Carousel>
 

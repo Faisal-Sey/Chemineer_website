@@ -12,15 +12,15 @@ export default function Header(){
 								<a href="./" className="logo-link">
 									<img 
 										className="logo-dark" 
-										src="/images/no-logo.png" 
-										srcSet="/images/no-logo.png 2x" 
+										src="/images/no-logo-bg.png" 
+										srcSet="/images/no-logo-bg.png" 
 										alt="logo"
 										layout="fill"
 									/>
 									<img 
 										className="logo-light" 
-										src="/images/no-logo.png" 
-										srcSet="/images/no-logo.png 2x" 
+										src="/images/no-logo-bg.png" 
+										srcSet="/images/no-logo-bg.png" 
 										alt="logo"
 									/>
 								</a>
