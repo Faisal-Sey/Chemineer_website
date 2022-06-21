@@ -65,7 +65,7 @@ export default function Header(){
 												<a className="menu-link nav-link active menu-toggle" href="#">Home</a>
 											</li>
 										</Link>
-										<li className="menu-item has-sub">
+										<li className={`menu-item has-sub ${pageDrop ? 'open-nav' : ''}`}>
 											<a className="menu-link nav-link menu-toggle" onClick={() => setDrops("page")}>Pages</a>
 											<ul className="menu-sub menu-drop" style={{display: pageDrop ? "block" : "none"}}>
 												<Link href="/about" passHref>
@@ -82,7 +82,7 @@ export default function Header(){
 												</Link>
 											</ul>
 										</li>
-										<li className="menu-item has-sub">
+										<li className={`menu-item has-sub ${accountDrop ? 'open-nav' : ''}`}>
 											<a className="menu-link nav-link menu-toggle" onClick={() => setDrops("account")}>Account</a>
 											<ul className="menu-sub menu-drop" style={{display: accountDrop ? "block" : "none"}}>
 												<Link href="/login" passHref>
