@@ -1,8 +1,18 @@
 import Image from "next/image"
 import Link from "next/link"
+import { SettingOutlined } from '@ant-design/icons';
+import { Menu } from 'antd';
+import { useState } from 'react';
 
 
 export default function Header(){
+
+		const [menu, setMenu] = useState(false)
+
+		const onClick = () => {
+			menu ? setMenu(false) : setMenu(true)
+		};
+
     return (
         <div className="header-main">
 					<div className="header-container container">
@@ -26,16 +36,17 @@ export default function Header(){
 								</a>
 							</div>
 							{/* Menu Toogle */}
-							<div className="header-nav-toggle">
+							<div className="header-nav-toggle" onClick={onClick}>
 								<a href="#" className="navbar-toggle" data-menu-toggle="header-menu">
 									<div className="toggle-line">
 										<span></span>
 									</div>
 								</a>
 							</div>
+
 							
 							{/* Menu */}
-							<div className="header-navbar">
+							<div className={`header-navbar ${menu ? 'menu-shown' : ''}`}>
 								<nav className="header-menu" id="header-menu">
 									<ul className="menu">
 										<Link href="/" passHref>
@@ -45,7 +56,7 @@ export default function Header(){
 										</Link>
 										<li className="menu-item has-sub">
 											<a className="menu-link nav-link menu-toggle" href="">Pages</a>
-											<ul className="menu-sub menu-drop">
+											<ul className="menu-sub menu-drop" style={{display: menu ? "block" : "none"}}>
 												<Link href="/about" passHref>
 													<li className="menu-item"><a className="menu-link nav-link" href="#">About Us</a></li>
 													</Link>
@@ -62,7 +73,7 @@ export default function Header(){
 										</li>
 										<li className="menu-item has-sub">
 											<a className="menu-link nav-link menu-toggle" href="#">Account</a>
-											<ul className="menu-sub menu-drop">
+											<ul className="menu-sub menu-drop" style={{display: menu ? "block" : "none"}}>
 												<Link href="/login" passHref>
 													<li className="menu-item"><a className="menu-link nav-link" href="#">Sign In</a></li>
 												</Link>
