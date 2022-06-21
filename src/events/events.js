@@ -18,154 +18,139 @@ function EventsPage() {
           <div className="row justify-content-center">
             <div className="col-md-10 text-center">
               <div className="section-head section-sm mtm-10">
-                <h2>Our Mission is to Deliver Remarkable Experiences And Superior Results For Our Clients For Our Clients</h2>
+                <h2>Events</h2>
+                <h4>All events</h4>
               </div>
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-12">
-              <ul className="project-filter project-md">
-                <li className="active" data-filter="all">All</li>
-                <li data-filter="1">UI/UX</li>
-                <li data-filter="2">Branding</li>
-                <li data-filter="3">Development</li>
-                <li data-filter="4">Photography</li>
-              </ul>
-              
-            </div>
-          </div>
-        </div>
-        
-        <div className="project-area">
-          <div className="row project project-v5 no-gutters" id="project1">
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="1">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-a.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>	
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="1,2">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-b.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="3,4">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-c.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="1,2,3">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-d.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="2">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-e.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="3,4">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-f.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="1.2">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-g.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <div className="col-sm-4 col-md-3 filtr-item" data-category="2,4">
-              <Link href="/events/1" passHref>
-                <div className="project-item">
-                  <div className="project-image">
-                    <img src="images/project-h.jpg" alt=""/>
-                  </div>
-                  <div className="project-over">
-                    <div className="project-content">
-                      <h4>Landing Page </h4>
-                      <p>UI/UX Design</p>
-                    </div>
-                  </div>
-                </div>
-              </Link>
-            </div>
-          </div>
 
-          <div className="events button-area-sm text-center">
-            <a href="florida-work-single.html" className="btn">See All Work</a>
+        <div className='container'>
+          <div className="project-area">
+            <div className="row project project-v5 no-gutters" id="project1">
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="1">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-a.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>	
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="1,2">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-b.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="3,4">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-c.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="1,2,3">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-d.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="2">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-e.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="3,4">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-f.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="1.2">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-g.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-sm-4 col-md-3 filtr-item" data-category="2,4">
+                <Link href="/events/1" passHref>
+                  <div className="project-item">
+                    <div className="project-image">
+                      <img src="images/project-h.jpg" alt=""/>
+                    </div>
+                    <div className="project-over">
+                      <div className="project-content">
+                        <h4>Event Name </h4>
+                        <p>Event Details</p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+            
           </div>
-          
         </div>
         
       </div>
