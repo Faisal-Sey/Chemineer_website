@@ -18,7 +18,7 @@ export default function Home() {
         {/* Fav Icon */}
         <link rel="shortcut icon" href="/images/favicon.png"/>
         {/* Site Title */}
-        <title>Genox - Creative Agency &amp; Digital Web Agency Multipurpose HTML Template</title>
+        <title>Cheesa website </title>
       </Head>
       <HomePage />
     </div>
