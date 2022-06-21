@@ -1,7 +1,7 @@
 import Footer from "../../widgets/footer/footer";
 import Header from "../../widgets/header/header";
 import BannerInner from "../../components/bannerInner/banner";
-import { Button, Modal, Switch} from 'antd';
+import { Button, Modal, Switch, Row, Col} from 'antd';
 import { useRef, useState } from 'react';
 
 
@@ -37,7 +37,6 @@ function CoursesPage() {
     courseRef.current.scrollIntoView()
 
   };
-
 
   const handleCancel = () => {
     console.log('Clicked cancel button');
@@ -128,10 +127,16 @@ function CoursesPage() {
         onCancel={handleCancel}
       >
         <div>
-          First Semester: 
-          <Switch checked={fSwitch} style={{marginLeft: 20, marginRight: 30}} onChange={() => switchChange(1)}/>
-          Second Semester: 
-          <Switch checked={lSwitch} style={{marginLeft: 20, marginRight: 30}} onChange={() => switchChange(2)}/>     
+          <Row>
+            <Col span={12}>
+              First Semester: 
+              <Switch checked={fSwitch} style={{marginLeft: 20, marginRight: 30}} onChange={() => switchChange(1)}/>
+            </Col>
+            <Col span={12}>
+              Second Semester: 
+              <Switch checked={lSwitch} style={{marginLeft: 20, marginRight: 30}} onChange={() => switchChange(2)}/>  
+            </Col>
+          </Row>
         </div>
         <br/>
         <p><b>{modalText}</b></p>
