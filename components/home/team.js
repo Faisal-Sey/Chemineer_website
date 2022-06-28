@@ -19,7 +19,7 @@ function Teams() {
           <div className="row has-carousel" data-items="3" data-loop="true" data-auto="true" data-dots="true">
             <div className="tes-block">
               <div className="tes-content bg-light shadow-alt">
-                <p>I recently hired Genox to develop a new version of my most popular website and I’m extremely happy with their work. </p>
+                <p>I recently hired Chemineer to develop a new version of my most popular website and I’m extremely happy with their work. </p>
               </div>
               <div className="tes-author d-flex align-items-center">
                 <div className="author-image">
@@ -34,7 +34,7 @@ function Teams() {
           
             <div className="tes-block ">
               <div className="tes-content bg-light shadow-alt">
-                <p>I recently hired Genox to develop a new version of my most popular website and I’m extremely happy with their work. </p>
+                <p>I recently hired Chemineer to develop a new version of my most popular website and I’m extremely happy with their work. </p>
               </div>
               <div className="tes-author d-flex align-items-center">
                 <div className="author-image">

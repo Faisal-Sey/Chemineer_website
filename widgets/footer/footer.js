@@ -54,7 +54,7 @@ export default function Footer(){
 						<div className="wgs">
 							<div className="wgs-content">
 								<h3 className="wgs-title t-u">Contact Us</h3>
-								<form className="genox-form" action="form/subscribe.php" method="POST">
+								<form className="chemineer-form" action="form/subscribe.php" method="POST">
 									<div className="form-results"></div>
 									<div className="field-group btn-inline">
 										<input type="email" name="s_email" className="input required" placeholder="Your  Email" onChange=''/>

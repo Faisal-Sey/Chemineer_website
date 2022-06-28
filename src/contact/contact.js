@@ -42,7 +42,7 @@ function ContactPage() {
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <form className="genox-form" action="form/contact.php" method="POST">
+                    <form className="chemineer-form" action="form/contact.php" method="POST">
                       <div className="form-results"></div>
                       <div className="row">
                         <div className="form-field col-md-6">
