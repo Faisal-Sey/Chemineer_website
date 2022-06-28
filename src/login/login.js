@@ -14,7 +14,7 @@ function Login() {
                 <div className="col-lg-6">
                   <div className="ath-body bg-light">
                     <h5 className="ath-heading title">Sign In <small className="tc-default">with your Reference Number</small></h5>
-                    <form className="genox-form" action="./">
+                    <form className="chemineer-form" action="./">
                       <div className="form-results"></div>
                       <div className="row">
                         <div className="form-field col-md-12">
